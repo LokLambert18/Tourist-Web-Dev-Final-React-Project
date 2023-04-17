@@ -1,0 +1,26 @@
+[
+	{
+		"_id": 123,
+		"name": "Red Fort",
+		"place": "Delhi",
+		"image": "redfort.jpg"
+	},
+	{
+		"_id": 234,
+		"name": "Stadium",
+		"place": "Hyderabad",
+		"image": "stadium.jpg"
+	},
+	{
+		"_id": 345,
+		"name": "Beach",
+		"place": "Calicut",
+		"image": "beach.jpg"
+	},
+	{
+		"_id": 346,
+		"name": "Beach",
+		"place": "Calicut",
+		"image": "beach.jpg"
+	}
+]

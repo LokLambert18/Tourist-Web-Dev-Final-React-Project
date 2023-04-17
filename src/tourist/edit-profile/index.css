@@ -1,0 +1,69 @@
+
+.wd-tabs li {
+   display: inline;
+}
+
+.wd-tabs {
+   padding-left: 0px;
+}
+
+.wd-selected {
+   border-bottom: 2px blue solid;
+   padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+   bottom: 18px;
+   left: 25px;
+}
+
+.wd-bottom-2 {
+   bottom: 2px;
+}
+
+.wd-bottom-4 {
+   bottom: 4px;
+}
+
+.edit-banner-picture {
+   width: 100%;
+   height: auto;
+   border-radius: 0 !important;
+   cursor: pointer;
+ }
+ 
+ .save-button {
+   background-color: black !important;
+   color: white !important;
+ }
+
+ .has-profile-picture .profile-picture {
+   position: absolute;
+   z-index: 2;
+   display: block;
+   width: 6.375rem;
+   margin-left: 1.375rem;
+   margin-top: 10.375rem;
+   cursor: pointer;
+ }
+
+ .profile-info {
+   margin-top: 5.375rem;
+ }
+
+ .close-icon {
+   font-size:32px;
+ }
+
+ .no-outline {
+   outline: none;
+   border: none;
+ }
+
+.border-gray:hover {
+   background: none !important;
+   border-color: gray;
+}
+ 
+ 
+ 

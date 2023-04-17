@@ -1,0 +1,139 @@
+/* .Container{
+  background-color: rgb(253, 238, 238) !important;
+} */
+
+.search-form {
+  /* margin-right: 3% !important; */
+  /* margin-left: % !important; */
+  display:flex;
+  flex-direction:row;
+  border:2px solid rgb(190, 18, 18);
+}
+
+.search-input {
+  flex-grow:2;
+  border:none;
+  background-color: rgb(226, 211, 211);
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-form:focus-within {
+  outline: 1px solid #2b0909
+}
+
+.search-button {
+  border: transparent;
+  min-width: 50% !important;
+  background:#dac9c5 !important;
+  color: rgb(85, 26, 26)
+}
+
+.register-input {
+  width: 100%;
+  border:1px solid rgb(36, 4, 2);
+  background-color: rgba(199, 173, 173, 0.125);
+}
+
+.register-input:focus-within {
+  outline: 1px solid #b6300f
+}
+
+
+
+.register-button {
+  border:1px solid rgb(3, 31, 24);
+  background:rgba(69, 122, 179, 0.125);
+  /* color:#2aa198; */
+}
+
+.img-custom {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.rounded-corner {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 10% !important;
+}
+  
+.custom {
+  min-width: 78px !important;
+}
+
+.location-name {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+.card-img-top {
+  border-radius: 5px !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.btn-topbar {
+  /* min-width: 100px !important; */
+  /* margin: 20px !important; */
+  border: none !important;
+  background: rgb(216, 26, 26) !important;
+}
+
+.edit-button {
+  border-color: #eedfdc !important;
+}
+
+.form-control {
+  background-color: #eedfdc !important;
+}
+
+.form-select {
+  background-color: #eedfdc !important;
+}
+
+.card:hover {
+  background: rgb(226, 211, 211);
+}
+
+.list-group-item:hover {
+  background: rgb(218, 184, 179) !important;
+}
+
+.list-group-item {
+  border-color:rgb(70, 24, 11) !important;
+  background-color: #eedfdc !important;
+}
+
+#menu ul { 
+  margin: 0; 
+  padding: 0; 
+  white-space:nowrap !important;
+}
+
+#menu > ul > li {
+  display:inline-block !important;
+  margin-left: 10px;
+  position: relative;
+
+}
+
