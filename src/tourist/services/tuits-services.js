@@ -1,5 +1,5 @@
 import axios from 'axios';
-const TUITS_URL = 'http://localhost:4000/tuits';
+const TUITS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/tuits';
 
 
 const pageLength = 5; // number of objects per page

@@ -1,19 +1,19 @@
 import axios from 'axios';
-const REVIEWS_URL = 'http://localhost:4000/reviews';
-const locAuthor_URL = 'http://localhost:4000/locAuthor';
-const hotelAuthor_URL = 'http://localhost:4000/hotelAuthor';
-const guideAuthor_URL = 'http://localhost:4000/guideAuthor';
-const authortype_URL = 'http://localhost:4000/authortype';
+const REVIEWS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/reviews';
+const locAuthor_URL = 'https://tourist-web-dev-final-node-project.onrender.com/locAuthor';
+const hotelAuthor_URL = 'https://tourist-web-dev-final-node-project.onrender.com/hotelAuthor';
+const guideAuthor_URL = 'https://tourist-web-dev-final-node-project.onrender.com/guideAuthor';
+const authortype_URL = 'https://tourist-web-dev-final-node-project.onrender.com/authortype';
 
-const HOTELREVIEWS_URL = 'http://localhost:4000/hotelReviews';
-const GUIDEREVIEWS_URL = 'http://localhost:4000/guideReviews';
-const LOCREVIEWS_URL = 'http://localhost:4000/locReviews';
+const HOTELREVIEWS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/hotelReviews';
+const GUIDEREVIEWS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/guideReviews';
+const LOCREVIEWS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/locReviews';
 
-const LOC_URL = 'http://localhost:4000/locid';
-const AUTHOR_URL = 'http://localhost:4000/authorid';
-const HOTEL_URL = 'http://localhost:4000/hotelid';
-const GUIDE_URL = 'http://localhost:4000/guideid';
-const TYPE_URL = 'http://localhost:4000/type';
+const LOC_URL = 'https://tourist-web-dev-final-node-project.onrender.com/locid';
+const AUTHOR_URL = 'https://tourist-web-dev-final-node-project.onrender.com/authorid';
+const HOTEL_URL = 'https://tourist-web-dev-final-node-project.onrender.com/hotelid';
+const GUIDE_URL = 'https://tourist-web-dev-final-node-project.onrender.com/guideid';
+const TYPE_URL = 'https://tourist-web-dev-final-node-project.onrender.com/type';
 
 const api = axios.create({ withCredentials: true });
 

@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const HOTELS_URL = 'http://localhost:4000/hotels';
-const CITY_URL = 'http://localhost:4000/city';
-const MANAGER_URL = 'http://localhost:4000/manager';
-const HID_URL = 'http://localhost:4000/hid';
-const REQUEST_URL = 'http://localhost:4000/hrequest';
+const HOTELS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/hotels';
+const CITY_URL = 'https://tourist-web-dev-final-node-project.onrender.com/city';
+const MANAGER_URL = 'https://tourist-web-dev-final-node-project.onrender.com/manager';
+const HID_URL = 'https://tourist-web-dev-final-node-project.onrender.com/hid';
+const REQUEST_URL = 'https://tourist-web-dev-final-node-project.onrender.com/hrequest';
 
 const api = axios.create({ withCredentials: true });
 

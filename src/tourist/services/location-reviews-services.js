@@ -1,8 +1,8 @@
 import axios from 'axios';
-const REVIEWS_URL = 'http://localhost:4000/reviews';
-const IDS_URL = 'http://localhost:4000/ids';
-const LOC_URL = 'http://localhost:4000/locid';
-const AUTHOR_URL = 'http://localhost:4000/authorid';
+const REVIEWS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/reviews';
+const IDS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/ids';
+const LOC_URL = 'https://tourist-web-dev-final-node-project.onrender.com/locid';
+const AUTHOR_URL = 'https://tourist-web-dev-final-node-project.onrender.com/authorid';
 
 const api = axios.create({ withCredentials: true });
 

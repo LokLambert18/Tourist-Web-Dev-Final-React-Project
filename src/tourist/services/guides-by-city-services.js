@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const GUIDES_URL = 'http://localhost:4000/guides';
-const REQUEST_URL = 'http://localhost:4000/grequest';
+const GUIDES_URL = 'https://tourist-web-dev-final-node-project.onrender.com/guides';
+const REQUEST_URL = 'https://tourist-web-dev-final-node-project.onrender.com/grequest';
 
 const api = axios.create({ withCredentials: true });
 

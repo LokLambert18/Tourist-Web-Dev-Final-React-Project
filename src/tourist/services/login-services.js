@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-const LOGIN_URL = 'http://localhost:4000/login';
-const USERS_URL = 'http://localhost:4000/users';
-const ID_URL = 'http://localhost:4000/id';
-const LOGOUT_URL = 'http://localhost:4000/logout';
-const FOLLOW_URL = 'http://localhost:4000/follow';
-const UNFOLLOW_URL = 'http://localhost:4000/unfollow';
+const LOGIN_URL = 'https://tourist-web-dev-final-node-project.onrender.com/login';
+const USERS_URL = 'https://tourist-web-dev-final-node-project.onrender.com/users';
+const ID_URL = 'https://tourist-web-dev-final-node-project.onrender.com/id';
+const LOGOUT_URL = 'https://tourist-web-dev-final-node-project.onrender.com/logout';
+const FOLLOW_URL = 'https://tourist-web-dev-final-node-project.onrender.com/follow';
+const UNFOLLOW_URL = 'https://tourist-web-dev-final-node-project.onrender.com/unfollow';
 
 const api = axios.create({ withCredentials: true });
 
